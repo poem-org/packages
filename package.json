@@ -1,0 +1,5 @@
+{
+  "name": "npm-1"
+  "desciption": "a npm package"
+  "main": "js/index.js"
+}
