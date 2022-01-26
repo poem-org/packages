@@ -2,4 +2,9 @@
   "name": "npm-1"
   "desciption": "a npm package"
   "main": "js/index.js"
+  "author": "Bosco",
+  "license": "MIT",
+  "dependencies": {
+    "@npm": "1.0.0"
+  }
 }
