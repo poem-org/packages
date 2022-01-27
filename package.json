@@ -1,10 +1,10 @@
 {
-  "name": "packages",
+  "name": "npm1",
   "description": "packages of poem.org",
   "version": "0.0.0",
-  "main": "js/main.js",
+  "main": "depenentbot/main.js",
   "files": [
-    "js/"
+    "dependentbot/"
   ],
   "dependencies": {
     "connected-react-router": "^5.0.1",
@@ -20,6 +20,7 @@
     "redux-thunk": "^2.2.0",
     "semantic-ui-css": "2.4.1",
     "semantic-ui-react": "2.1.1",
+    "set-value": ">=2.0.1",
     "styled-components": "^2.2.2"
   },
   "devDependencies": {
@@ -53,24 +54,12 @@
     "build": "webpack --config webpack/webpack.config.js -p --display-error-details --progress --optimize-minimize",
     "dev": "webpack-dev-server --config webpack/webpack.config-dev.js --open"
   },
-  "keywords": [
-    "community",
-    "contribute",
-    "github",
-    "github-community",
-    "github-contribute",
-    "github-issues",
-    "help-wanted",
-    "open-source",
-    "open-source-community",
-    "open-source-software"
-  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/poem-org/package.git"
+    "url": "https://github.com/poem-org/home.html.git"
   },
   "bugs": {
-    "url": "https://github.com/poem-org/package/issues/"
+    "url": "https://github.com/poem-org/home.html/issues/"
   },
   "license": "MIT",
   "homepage": "https://poem-org.github.io/home",
